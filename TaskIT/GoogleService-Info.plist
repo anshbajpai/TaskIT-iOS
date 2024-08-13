@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>278412263333-ie9nsabt2uaqjldlapb3rardjmfd4r1m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.278412263333-ie9nsabt2uaqjldlapb3rardjmfd4r1m</string>
+	<key>API_KEY</key>
+	<string>SECRET_KEY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>278412263333</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.moansh.TaskIT</string>
+	<key>PROJECT_ID</key>
+	<string>fit3178-taskit</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fit3178-taskit.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:278412263333:ios:d035d10643bab54b21f24c</string>
+</dict>
+</plist>

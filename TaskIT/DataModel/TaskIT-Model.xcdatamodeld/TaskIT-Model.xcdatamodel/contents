@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ChecklistUnit" representedClassName="ChecklistUnit" syncable="YES">
+        <attribute name="checklistDescription" optional="YES" attributeType="String"/>
+        <attribute name="isChecklist" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="taskItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TaskUnit" inverseName="checklistItems" inverseEntity="TaskUnit"/>
+    </entity>
+    <entity name="TaskUnit" representedClassName="TaskUnit" syncable="YES">
+        <attribute name="isChecklist" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="priorityLabel" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+        <relationship name="checklistItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ChecklistUnit" inverseName="taskItem" inverseEntity="ChecklistUnit"/>
+    </entity>
+    <elements>
+        <element name="ChecklistUnit" positionX="-18" positionY="27" width="128" height="74"/>
+        <element name="TaskUnit" positionX="-45" positionY="0" width="128" height="104"/>
+    </elements>
+</model>
